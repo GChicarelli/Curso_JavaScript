@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(76, 152, 187);
+}
+
+.Subtitulo-1 {
+    color:  rgb(3, 245, 213);
+}
+
+body {
+    background-color: rgb(60, 69, 78);
+}
+
+img {
+
+    /*
+    width: Largura da imagem
+    height: Altura da imagem
+    */
+    width: 400px;
+    height: 400px;
+}
