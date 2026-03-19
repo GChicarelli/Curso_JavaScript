@@ -99,4 +99,40 @@ if (numero1 % 2 === 0) {
     console.log("O numero é impar.");
 }
 
+//* 3. Desconto em compra 
+
+let compra = prompt("Digite o valor da compra:")
+resultado = compra * 0.10;
+desconto = compra - resultado;
+
+
+if (compra >= 0 && compra <= 99) {
+    console.log("Você não tem desconto.");
+} else if (compra >= 100) {
+    console.log(`Você teve um desconto de ${resultado}%, sua compra ficara R$${desconto} `);
+} else {
+    console.log("Valor não é valido!")
+}
+
+
+
+//* 4. Sistema de login simples 
+
+let usuario = prompt("Usuário: ");
+let senha = prompt("Digite sua senha: ")
+
+if ( usuario == "admin"){
+    console.log("Usuário correto!");
+} else {
+    console.log("Usuário incorreto ou não existe.")
+}
+
+if (senha == "1234"){
+    console.log("Senha correta!")
+} else {
+    console.log("Senha incorreta!")
+}
+
+
+
 
