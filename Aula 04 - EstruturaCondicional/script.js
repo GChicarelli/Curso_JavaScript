@@ -119,7 +119,7 @@ let tema = prompt("Digite um tema: claro, escuro ou azul.");
 switch (tema) {
     case "claro":
         console.log("Tema claro ativado.");
-        brack;
+        break;
     case "escuro":
         console.log("tema escuro ativado.");
         brack;

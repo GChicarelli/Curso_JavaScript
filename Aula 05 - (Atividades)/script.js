@@ -44,3 +44,6 @@ while (contador <= 50) {
     }
     contador++
 }
+
+//* Exercicio 2 
+
